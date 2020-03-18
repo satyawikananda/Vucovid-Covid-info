@@ -1,0 +1,13 @@
+@import 'section';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#root {
+	display: flex;
+	align-content: stretch;
+	width: 100vw;
+	height: 100vh;
+}

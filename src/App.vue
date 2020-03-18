@@ -1,28 +1,21 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
-  </div>
+  <v-app>
+    <Navbar />
+    <v-content>
+      <section-one />
+    </v-content>
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import Navbar from "@/components/master/Navbar.vue";
+import SectionOne from "@/components/layout/SectionOne.vue";
 
 export default {
-  name: "App",
+  name: "Vucovid",
   components: {
-    HelloWorld
+    Navbar,
+    "section-one": SectionOne
   }
 };
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
