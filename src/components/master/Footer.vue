@@ -9,6 +9,7 @@
           <a
             href="https://github.com/satyawikananda/Vucovid-Covid-info"
             style="text-decoration:none"
+            target="_blank"
             >Satya Wikananda</a
           ></span
         ><br />
@@ -17,6 +18,7 @@
           <a
             href="https://github.com/mathdroid/covid-19-api"
             style="text-decoration:none"
+            target="_blank"
             >Mathdroid</a
           ></span
         >
