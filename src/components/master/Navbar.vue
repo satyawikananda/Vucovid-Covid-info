@@ -22,8 +22,15 @@ export default {
       menu: [
         {
           title: "Map Covid",
-          link: "/",
-          key: "anime"
+          link: "/"
+        },
+        {
+          title: "Graph Image",
+          link: "/"
+        },
+        {
+          title: "Data Global",
+          link: "/"
         }
       ]
     };
