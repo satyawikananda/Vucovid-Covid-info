@@ -4,9 +4,16 @@ import "./registerServiceWorker";
 import vuetify from "./plugins/vuetify";
 import Axios from "axios";
 import "./assets/scss/index.scss";
+import moment from "moment";
 
 Vue.config.productionTip = false;
 Vue.prototype.$http = Axios;
+
+Vue.filter("lastUpdate", function(value) {
+  if (value) {
+    return moment(value).format("DD/MM/YYYY HH:mm:ss ZZ");
+  }
+});
 
 new Vue({
   vuetify,

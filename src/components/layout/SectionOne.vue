@@ -59,6 +59,9 @@
             <h3 class="display-1 font-weight-reguler text-black text-center">
               Place Search: {{ searchCountry }}
             </h3>
+            <span class="text-center subtitle-1 font-weight-light">
+              Last Update: <b>{{ data.lastupd | lastUpdate }}</b>
+            </span>
             <v-row no-gutters>
               <v-col cols="12" sm="12" md="12" lg="12" class="mx-auto mt-5">
                 <v-sheet color="accent">
