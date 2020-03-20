@@ -85,7 +85,10 @@
                         }}</span
                         ><br />
                         <span>Deaths: </span>
-                        <span class="font-weight-bold">{{ data.deaths }}</span>
+                        <span class="font-weight-bold">{{ data.deaths }}</span
+                        ><br />
+                        <span>Active: </span>
+                        <span class="font-weight-bold">{{ data.active }}</span>
                       </l-popup>
                     </l-marker>
                   </l-map>

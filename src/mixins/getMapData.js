@@ -22,6 +22,7 @@ export const getMapData = {
         this.data.deaths = data[0].deaths;
         this.data.lat = data[0].lat;
         this.data.long = data[0].long;
+        this.data.active = data[0].active;
         this.data.lastupd = data[0].lastUpdate;
       } catch (err) {
         throw new err();
