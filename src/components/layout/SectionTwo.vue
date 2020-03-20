@@ -37,15 +37,11 @@
         </v-flex>
         <v-layout row wrap>
           <v-flex md6 xs12>
-            <div v-if="isLoading">
-              <loading loading="Loading Image" />
-            </div>
             <v-img
               :src="srcSpecific"
               :lazy-src="srcSpecific"
               aspect-ratio="1.7"
               contain
-              v-else
             />
           </v-flex>
           <v-flex md6 xs12>
@@ -59,19 +55,14 @@
 <script>
 import { getContries } from "@/mixins/getCountries.js";
 import { API_URL } from "@/const.js";
-import loading from "@/components/loading/Loading.vue";
 export default {
   mixins: [getContries],
-  components: {
-    loading
-  },
   data() {
     return {
       src: `${API_URL}og`,
       states: [],
       searchCountry: "Indonesia",
-      srcSpecific: "",
-      isLoading: false
+      srcSpecific: ""
     };
   },
   methods: {

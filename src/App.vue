@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <Navbar />
+    <navbar />
     <v-content>
       <section-one />
       <section-two />
@@ -11,19 +11,14 @@
 </template>
 
 <script>
-import Navbar from "@/components/master/Navbar.vue";
-import SectionOne from "@/components/layout/SectionOne.vue";
-import SectionTwo from "@/components/layout/SectionTwo.vue";
-import SectionThree from "@/components/layout/SectionThree.vue";
-import Footer from "@/components/master/Footer.vue";
 export default {
   name: "Vucovid",
   components: {
-    Navbar,
-    "section-one": SectionOne,
-    "section-two": SectionTwo,
-    "section-three": SectionThree,
-    Footer
+    navbar: () => import("./components/master/Navbar.vue"),
+    sectionOne: () => import("./components/layout/SectionOne.vue"),
+    sectionTwo: () => import("./components/layout/SectionTwo.vue"),
+    sectionThree: () => import("./components/layout/SectionThree.vue"),
+    Footer: () => import("./components/master/Footer.vue")
   }
 };
 </script>

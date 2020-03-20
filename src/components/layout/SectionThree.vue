@@ -26,10 +26,9 @@
   </section>
 </template>
 <script>
-import dTable from "@/components/dataTable/DataTable.vue";
 export default {
   components: {
-    "data-table": dTable
+    dataTable: () => import("../dataTable/DataTable.vue")
   }
 };
 </script>

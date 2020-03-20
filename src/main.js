@@ -4,7 +4,7 @@ import "./registerServiceWorker";
 import vuetify from "./plugins/vuetify";
 import Axios from "axios";
 import "./assets/scss/index.scss";
-import moment from "moment";
+import moment from "moment/src/moment";
 
 Vue.config.productionTip = false;
 Vue.prototype.$http = Axios;
