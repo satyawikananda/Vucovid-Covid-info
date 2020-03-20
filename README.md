@@ -1,5 +1,5 @@
 # Vucovid | Covid-19 info
-A simple website to track latest data covid-19 in the world, and this website was created by using Vue.js and has been deployed to firebase hosting, and I'm feel free if you want to open PR in this repo :tada:
+A simple website to track latest data covid-19 in the world, and this website was created by using Vue.js and has been deployed to firebase hosting, and I'm feel free if you want to open PR in this repo because i'm still learning too :) :tada:
 ## Project setup
 ```
 npm install
