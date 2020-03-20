@@ -1,5 +1,5 @@
-# vue-corona-info
-
+# Vucovid | Covid-19 info
+A simple website to track latest data covid-19 in the world, and this website was created by using Vue.js and has been deployed to firebase hosting, and I'm feel free if you want to open PR in this repo :tada:
 ## Project setup
 ```
 npm install
@@ -20,5 +20,8 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Resources
+* [Vue.js](https://vuejs.org).
+* Web styling using [Vuetify](https://vuetifyjs.com/).
+* Platform map was using by [Vue2-leaflet](http://vue2-leaflet.netlify.com/).
+* This data API provided by [Mathdroid](https://github.com/mathdroid/covid-19-api).
