@@ -13,7 +13,9 @@ export const getContries = {
           url: `${API_URL}countries`
         });
         this.states = data.countries;
-        this.states = Object.keys(this.states);
+        this.states.forEach(res => {
+          this.states.push(res.name);
+        });
       } catch (err) {
         throw new err();
       }

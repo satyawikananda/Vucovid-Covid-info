@@ -37,15 +37,10 @@
         </v-flex>
         <v-layout row wrap>
           <v-flex md6 xs12>
-            <v-img
-              :src="srcSpecific"
-              :lazy-src="srcSpecific"
-              aspect-ratio="1.7"
-              contain
-            />
+            <img :src="srcSpecific" style="width:100%" loading="lazy" />
           </v-flex>
           <v-flex md6 xs12>
-            <v-img :src="src" :lazy-src="src" aspect-ratio="1.7" contain />
+            <img :src="src" style="width:100%" loading="lazy" />
           </v-flex>
         </v-layout>
       </v-container>
