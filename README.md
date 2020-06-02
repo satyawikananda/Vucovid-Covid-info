@@ -1,5 +1,6 @@
 # Vucovid | Covid-19 info
 
+![Nodejs CI](https://github.com/satyawikananda/Vucovid-Covid-info/workflows/Node.js%20CI/badge.svg)
 ![Pipeline status](https://gitlab.com/satyawikananda/vucovid-covid-19-info/badges/master/pipeline.svg)
 
 A simple website to track latest data covid-19 in the world, and this website was created by using Vue.js and has been deployed to firebase hosting, and I'm feel free if you want to open PR in this repo because i'm still learning too :) :tada:
